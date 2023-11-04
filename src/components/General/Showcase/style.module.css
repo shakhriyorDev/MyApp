@@ -1,0 +1,74 @@
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-top: 120px;
+}
+.showcaseImg {
+  width: 500px;
+  box-shadow: 5px 5px 2px 2px #2563eb;
+}
+.showcaseHeading {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  font-family: DM Sans;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px; /* 144.828% */
+  letter-spacing: 1.16px;
+
+  background: var(--Gd, linear-gradient(90deg, #2563eb 0.11%, #d946ef 58.65%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 29px;
+}
+.showcaseInfo {
+  color: #e5e7eb;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 200% */
+}
+.buttons {
+  display: flex;
+  padding-top: 50px;
+}
+.nextBtn {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: unset;
+  border: unset;
+}
+.nextBtnLink {
+  color: #f9fafb;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.btn {
+  padding: 20px 40px;
+  border-radius: 6px;
+  background: var(
+    --Gardient,
+    linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+  );
+  border: none;
+}
+.btnLink {
+  color: #f9fafb;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

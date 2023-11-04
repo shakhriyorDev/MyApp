@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  border-top: 1px solid #969696;
+  opacity: 0.4;
+  padding-top: 40px;
+  margin-top: 50px;
+}
+li {
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 222.222% */
+  letter-spacing: 0.18px;
+}

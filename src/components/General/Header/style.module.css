@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 40px;
+  padding-right: 100px;
+  padding-left: 100px;
+  position: fixed;
+  align-items: center;
+  gap: 100px;
+  background: rgba(17, 24, 39, 0.52);
+  backdrop-filter: blur(33px);
+  width: 90%;
+  z-index: 1;
+}
+
+.shahriyor {
+  color: #fff;
+  font-family: DM Sans, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.headerList {
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerListItem {
+  color: #f9fafb;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.headerBtn {
+  padding: 12px 24px;
+  border-radius: 5px;
+  background: var(
+    --Gardient,
+    linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+  );
+  border: unset;
+  color: #f9fafb;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
